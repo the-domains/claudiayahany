@@ -1,12 +1,24 @@
-layout_spectrum: 1
-typography_spectrum: 0.2025794
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 color:
   saturation: 0.01337224
-  brandStrength: 0.8531859
   lightness: 0.01402031
+  brandStrength: 0
   brandColors:
     - '#E0E0E0'
     - '#202020'
     - '#9A9A9A'
   rhythmicContrast: 0.7265679
+typography_spectrum: 0.2025794
+layout_spectrum: 1
 name: claudiayahany
