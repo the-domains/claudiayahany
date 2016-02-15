@@ -4,21 +4,21 @@ collections:
       number: 15
       paginate: true
       navigable: true
-    permalink:
-      path: '/:title/'
     feed:
       path: /rss.xml
       format: rss
       number: 10
+    permalink:
+      path: '/:title/'
 color:
   saturation: 0.01337224
-  lightness: 0.01402031
   brandStrength: 0
+  lightness: 0
   brandColors:
     - '#E0E0E0'
     - '#202020'
     - '#9A9A9A'
   rhythmicContrast: 0.7265679
-typography_spectrum: 0.2025794
+typography_spectrum: 0.6197302
 layout_spectrum: 1
 name: claudiayahany
